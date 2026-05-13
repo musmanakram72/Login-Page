@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline CSS Login</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Arial', sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+    <!-- Login Container -->
+    <div style="background: #ffffff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); width: 100%; max-width: 400px; text-align: center;">
+        
+        <h2 style="margin-bottom: 20px; color: #1c1e21;">Login</h2>
+        
+        <form action="#" method="POST">
+            <!-- Username/Email Field -->
+            <div style="margin-bottom: 15px; text-align: left;">
+                <label for="user" style="display: block; margin-bottom: 5px; font-weight: bold; color: #4b4f56;">Email or Phone</label>
+                <input type="text" id="user" name="user" placeholder="Enter email" required 
+                       style="width: 100%; padding: 12px; border: 1px solid #dddfe2; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+            </div>
+
+            <!-- Password Field -->
+            <div style="margin-bottom: 20px; text-align: left;">
+                <label for="pass" style="display: block; margin-bottom: 5px; font-weight: bold; color: #4b4f56;">Password</label>
+                <input type="password" id="pass" name="pass" placeholder="Enter password" required 
+                       style="width: 100%; padding: 12px; border: 1px solid #dddfe2; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" 
+                    style="width: 100%; padding: 12px; background-color: #1877f2; border: none; border-radius: 6px; color: #ffffff; font-size: 18px; font-weight: bold; cursor: pointer;">
+                Log In
+            </button>
+        </form>
+
+        <!-- Extra Links -->
+        <div style="margin-top: 15px;">
+            <a href="#" style="color: #1877f2; text-decoration: none; font-size: 14px;">Forgot password?</a>
+        </div>
+        
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #dddfe2;">
+        
+        <button style="background-color: #42b72a; border: none; border-radius: 6px; color: #ffffff; padding: 10px 20px; font-size: 16px; font-weight: bold; cursor: pointer;">
+            Create new account
+        </button>
+    </div>
+
+</body>
+</html>
